@@ -15,7 +15,7 @@
         {
             "description": "JWS Release version, e.g. 3.0, 2.1, etc.",
             "name": "JWS_RELEASE",
-            "value": "3.0"
+            "value": "3.0-123"
         },
         {
             "description": "The name for the application.",
@@ -29,7 +29,8 @@
         },
         {
             "description": "Git source URI for application",
-            "name": "GIT_URI"
+            "name": "GIT_URI",
+            "value": "https://github.com/bparees/openshift-jee-sample"
         },
         {
             "description": "Git branch/tag reference",
@@ -436,7 +437,7 @@
                         "containers": [
                             {
                                 "name": "${APPLICATION_NAME}-postgresql",
-                                "image": "registry.access.redhat.com/openshift3_beta/postgresql-92-rhel7:latest",
+                                "image": "virt-openshift-08.lab.eng.nay.redhat.com:5000/openshift/postgresql-92-rhel7:latest",
                                 "ports": [
                                     {
                                         "name": "${APPLICATION_NAME}-postgresql-tcp-5432",

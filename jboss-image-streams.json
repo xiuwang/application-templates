@@ -18,11 +18,11 @@
                 }
             },
             "spec": {
-                "dockerImageRepository": "registry.access.redhat.com/jboss-webserver-3/tomcat7-openshift",
+                "dockerImageRepository": "virt-openshift-08.lab.eng.nay.redhat.com:5000/jboss-webserver-3/tomcat7-openshift",
                 "tags": [
                     {
-                        "name": "3.0",
-                        "dockerImageReference": "registry.access.redhat.com/jboss-webserver-3/tomcat7-openshift:3.0"
+                        "name": "3.0-123",
+                        "dockerImageReference": "virt-openshift-08.lab.eng.nay.redhat.com:5000/jboss-webserver-3/tomcat7-openshift:3.0-123"
                     }
                 ]
             }
@@ -37,11 +37,11 @@
                 }
             },
             "spec": {
-                "dockerImageRepository": "registry.access.redhat.com/jboss-webserver-3/tomcat8-openshift",
+                "dockerImageRepository": "virt-openshift-08.lab.eng.nay.redhat.com:5000/jboss-webserver-3/tomcat8-openshift",
                 "tags": [
                     {
-                        "name": "3.0",
-                        "dockerImageReference": "registry.access.redhat.com/jboss-webserver-3/tomcat8-openshift:3.0"
+                        "name": "3.0-125",
+                        "dockerImageReference": "virt-openshift-08.lab.eng.nay.redhat.com:5000/jboss-webserver-3/tomcat8-openshift:3.0-125"
                     }
                 ]
             }
@@ -94,11 +94,11 @@
                 }
             },
             "spec": {
-                "dockerImageRepository": "registry.access.redhat.com/openshift3_beta/mysql-55-rhel7",
+                "dockerImageRepository": "virt-openshift-08.lab.eng.nay.redhat.com:5000/openshift/mysql-55-rhel7",
                 "tags": [
                     {
                         "name": "latest",
-                        "dockerImageReference": "registry.access.redhat.com/openshift3_beta/mysql-55-rhel7:latest"
+                        "dockerImageReference": "virt-openshift-08.lab.eng.nay.redhat.com:5000/openshift/mysql-55-rhel7:latest"
                     }
                 ]
             }
@@ -113,11 +113,11 @@
                 }
             },
             "spec": {
-                "dockerImageRepository": "registry.access.redhat.com/openshift3_beta/postgresql-92-rhel7",
+                "dockerImageRepository": "virt-openshift-08.lab.eng.nay.redhat.com:5000/openshift/postgresql-92-rhel7",
                 "tags": [
                     {
                         "name": "latest",
-                        "dockerImageReference": "registry.access.redhat.com/openshift3_beta/postgresql-92-rhel7:latest"
+                        "dockerImageReference": "virt-openshift-08.lab.eng.nay.redhat.com:5000/openshift/postgresql-92-rhel7:latest"
                     }
                 ]
             }
@@ -132,11 +132,11 @@
                 }
             },
             "spec": {
-                "dockerImageRepository": "registry.access.redhat.com/openshift3_beta/mongodb-24-rhel7",
+                "dockerImageRepository": "virt-openshift-08.lab.eng.nay.redhat.com:5000/openshift/mongodb-24-rhel7",
                 "tags": [
                     {
                         "name": "latest",
-                        "dockerImageReference": "registry.access.redhat.com/openshift3_beta/mongodb-24-rhel7:latest"
+                        "dockerImageReference": "virt-openshift-08.lab.eng.nay.redhat.com:5000/openshift/mongodb-24-rhel7:latest"
                     }
                 ]
             }
